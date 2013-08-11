@@ -1,0 +1,83 @@
+"  __     _____ __  __ ____   ____   _     ___   ____    _    _
+"  \ \   / /_ _|  \/  |  _ \ / ___| | |   / _ \ / ___|  / \  | |
+"   \ \ / / | || |\/| | |_) | |     | |  | | | | |     / _ \ | |
+"    \ V /  | || |  | |  _ <| |___ _| |___ |_| | |___ / ___ \| |___
+"     \_/  |___|_|  |_|_| \_\\____(_)_____\___/ \____/_/   \_\_____|
+"
+"
+" Maintainer:    Fontaine Cook
+" Description:   The local Vim configuration file. Here is where you get your
+"                overrides on.
+"------------------------------------------------------------------------------
+" This would be Vim's version of accessing [Edit Preferences]. These files are
+" sourced post save, so most of the time your changes should take effect
+" immediately. However, some changes will only take effect after restarting Vim.
+
+silent! colorscheme molokai-ez
+
+" BUNDLES: "{{{
+" *******************************************************************************
+" "Local Bundles"
+" here
+"-------------------------------------------------------------------------------
+
+
+
+" }}}
+" CONFIG FILES: "{{{
+" *******************************************************************************
+
+" "Edit Color Scheme" TODO: make local override with
+" http://www.vim.org/scripts/script.php?script_id=1641
+nnoremap <silent><Leader>e2 :e ~/.vim/bundle/vim-themes/colors/molokai-ez.vim<CR><Bar>ggzm
+"-------------------------------------------------------------------------------
+
+
+
+" "Edit Tmux"
+nnoremap <silent><Leader>e3 :e ~/.zsh/tmux.conf<CR><Bar>ggzm
+"-------------------------------------------------------------------------------
+
+
+
+" "Edit Vimrc"
+nnoremap <silent><Leader>e0 :e ~/.vim/vimrc<CR><Bar>ggzm
+"-------------------------------------------------------------------------------
+
+
+" }}}
+" PREFERENCES: "{{{
+" *******************************************************************************
+
+" "Spell Checking"
+" Make sure to update the spelllang to your language. Custom words are tucked
+" away in the .vim/spell folder.
+set nospell               " Options: spell or nospell
+set spelllang=en_us       " Default language
+"-------------------------------------------------------------------------------
+
+
+
+" "Paragraph Formatting"
+" set formatprg=par
+"-------------------------------------------------------------------------------
+
+
+
+" "Mouse"
+"set mouse=a                  " Enable mouse usage (all modes)
+"set selectmode=mouse         " Selection with the mouse trigers Select mode
+"set ttymouse=xterm2          " Enable basic mouse functionality in a terminal
+"-------------------------------------------------------------------------------
+
+
+
+" "Strip Trailing Whitespace"
+" Uncomment and replace filetype1,filetype2... with filetypes you don't want
+" trailing whitespace striped automatically upon file write.
+autocmd FileType filetype1,filetype2 let b:noStripWhitespace=1
+"-------------------------------------------------------------------------------
+
+
+
+" vim:ft=vim:fdm=marker:
