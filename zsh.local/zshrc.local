@@ -3,10 +3,7 @@
 
 
 # Paths
-platforms = /srv/aegir/platforms/
-pearance = /srv/pearance.com
-vimtmp = ~/dotfiles/vim.local/tmp/
+platforms=/srv/aegir/platforms/
+pearance=/srv/pearance.com
+vimtmp=~/dotfiles/vim.local/tmp/
 #-------------------------------------------------------------------------------
-
-
-
