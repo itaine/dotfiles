@@ -2,8 +2,14 @@
 
 
 
-# Paths
+# PATHS
 platforms=/srv/aegir/platforms/
 pearance=/srv/pearance.com
 vimtmp=~/dotfiles/vim.local/tmp/
+#-------------------------------------------------------------------------------
+
+
+
+# ALIASES
+alias mon='nodemon'
 #-------------------------------------------------------------------------------
