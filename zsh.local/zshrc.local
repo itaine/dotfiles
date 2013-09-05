@@ -4,12 +4,14 @@
 
 # PATHS
 platforms=/srv/aegir/platforms/
-pearance=/srv/pearance.com
+pearance=/srv/pearance.com/
 vimtmp=~/dotfiles/vim.local/tmp/
+govim=~/.vim/
 #-------------------------------------------------------------------------------
 
 
 
 # ALIASES
 alias mon='nodemon'
+alias edevbuild='vim ~/bin/devbuild.git/devbuild.sh'
 #-------------------------------------------------------------------------------
