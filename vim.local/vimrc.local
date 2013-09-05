@@ -29,7 +29,7 @@ silent! colorscheme molokaiez
 
 " "Edit Color Scheme" TODO: make local override with
 " http://www.vim.org/scripts/script.php?script_id=1641
-nnoremap <silent><Leader>e2 :e ~/.vim/colors/molokaiez.vim<CR><Bar>ggzm
+nnoremap <silent><Leader>e2 :e ~/.vim/bundle/vimez-themes/colors/molokaiez.vim<CR><Bar>ggzm
 "-------------------------------------------------------------------------------
 
 
