@@ -13,5 +13,8 @@ govim=~/.vim/
 
 # ALIASES
 alias mon='nodemon'
+alias dev='grunt dev'
+alias test='grunt test'
+alias prod='grunt prod'
 alias edevbuild='vim ~/bin/devbuild.git/devbuild.sh'
 #-------------------------------------------------------------------------------

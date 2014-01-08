@@ -40,6 +40,19 @@ nnoremap <silent><Leader>e3 :e ~/.zsh/tmux.conf<CR><Bar>ggzm
 
 
 
+" "Edit Global Snippet"
+nnoremap <silent><Leader>e4 :e ~/.vim/bundle/vimez-themes/autoload/airline/themes/vimez.vim <CR><Bar>ggzm
+"-------------------------------------------------------------------------------
+
+
+
+" "Edit Global Snippet"
+nnoremap <silent><Leader>e5 :e ~/.vim/bundle/vimez-snips/_.snip<CR><Bar>ggzm
+nnoremap <silent><Leader>egs :sp ~/.vim/bundle/vimez-snips/_.snip<CR><Bar>ggzm
+"-------------------------------------------------------------------------------
+
+
+
 " "Edit Vimrc"
 nnoremap <silent><Leader>e0 :e ~/.vim/vimrc<CR><Bar>ggzm
 "-------------------------------------------------------------------------------
