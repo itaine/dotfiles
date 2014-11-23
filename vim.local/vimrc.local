@@ -24,7 +24,7 @@ silent! colorscheme molokaiez
 
 
 " }}}
-" CONFIG FILES: "{{{
+" SETTINGS FILES: "{{{
 " *******************************************************************************
 
 " "Edit Local Vim Settings"
@@ -53,14 +53,13 @@ nnoremap <silent><Leader>e4 :e ~/.zsh/tmux.conf<CR><Bar>ggzm
 
 
 " "Edit Global Snippet"
-nnoremap <silent><Leader>e4 :e ~/.vim/bundle/vimez-themes/autoload/airline/themes/vimez.vim <CR><Bar>ggzm
+nnoremap <silent><Leader>e5 :e ~/.vim/bundle/vimez-themes/autoload/airline/themes/vimez.vim <CR><Bar>ggzm
 "-------------------------------------------------------------------------------
 
 
 
 " "Edit Global Snippet"
-nnoremap <silent><Leader>e5 :e ~/.vim/bundle/vimez-snips/_.snip<CR><Bar>ggzm
-nnoremap <silent><Leader>egs :sp ~/.vim/bundle/vimez-snips/_.snip<CR><Bar>ggzm
+nnoremap <silent><Leader>e6 :e ~/.vim/bundle/vimez-snips/_.snip<CR><Bar>ggzm
 "-------------------------------------------------------------------------------
 
 
