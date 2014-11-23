@@ -27,6 +27,12 @@ silent! colorscheme molokaiez
 " CONFIG FILES: "{{{
 " *******************************************************************************
 
+" "Edit Local Vim Settings"
+nnoremap <silent><Leader>e1 :e ~/dotfiles/vim.local/vimrc.local<CR><Bar>ggzm
+"-------------------------------------------------------------------------------
+
+
+
 " "Edit Color Scheme" TODO: make local override with
 " http://www.vim.org/scripts/script.php?script_id=1641
 nnoremap <silent><Leader>e2 :e ~/.vim/bundle/vimez-themes/colors/molokaiez.vim<CR><Bar>ggzm
@@ -34,8 +40,14 @@ nnoremap <silent><Leader>e2 :e ~/.vim/bundle/vimez-themes/colors/molokaiez.vim<C
 
 
 
-" "Edit Tmux"
-nnoremap <silent><Leader>e3 :e ~/.zsh/tmux.conf<CR><Bar>ggzm
+" "Edit Zshell Settings"
+nnoremap <silent><Leader>e3 :e ~/.zsh/zshrc<CR><Bar>ggzm
+"-------------------------------------------------------------------------------
+
+
+
+" "Edit Tmux Settings"
+nnoremap <silent><Leader>e4 :e ~/.zsh/tmux.conf<CR><Bar>ggzm
 "-------------------------------------------------------------------------------
 
 
