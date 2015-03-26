@@ -11,17 +11,20 @@
 #  |_|_| |_|___/\__\__,_|_|_(_)___/_| |_|
 #
 # Author:         Fontaine Cook
-# Description:    Vimez installation script.
+# Description:    Dotfiles installation script.
 # ------------------------------------------------------------------------------
 
 # CLONE DOTFILES {{{
+clear
+cd ~
+rm -r .dotfiles
 git clone https://github.com/itaine/dotfiles.git ~/.dotfiles
-echo -e "\nCloned zshtopia successfully!\n"
+echo -e "\nCloned dotfiles successfully!\n"
 #------------------------------------------------------------------------------
 
 
 #}}}
-# LINK TO CONFIGURATION FILES {{{
+# LINK DOTFILES {{{
 cd ~
 ln -sf ~/.dotfiles/vimrc.local ~/.vimrc.local
 
@@ -39,3 +42,9 @@ echo -e "\nLinked configuration files successfully!\n"
 
 
 #}}}
+# WRAP UP {{{
+#------------------------------------------------------------------------------
+rm ~/install.sh
+echo -e "\nCleaned up successfully!\n"
+zsh
+# }}}
