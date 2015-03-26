@@ -28,7 +28,7 @@ silent! colorscheme molokaiez
 " *******************************************************************************
 
 " "Edit Local Vim Settings"
-nnoremap <silent><Leader>e1 :e ~/dotfiles/vim.local/vimrc.local<CR><Bar>ggzm
+nnoremap <silent><Leader>e1 :e ~/.dotfiles/vimrc.local<CR><Bar>ggzm
 "-------------------------------------------------------------------------------
 
 
@@ -47,7 +47,7 @@ nnoremap <silent><Leader>e3 :e ~/.zsh/zshrc<CR><Bar>ggzm
 
 
 " "Edit Tmux Settings"
-nnoremap <silent><Leader>e4 :e ~/.zsh/tmux.conf<CR><Bar>ggzm
+nnoremap <silent><Leader>e4 :e ~/.dotfiles/tmux.conf<CR><Bar>ggzm
 "-------------------------------------------------------------------------------
 
 
