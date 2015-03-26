@@ -18,7 +18,7 @@
 clear
 cd ~
 rm -r .dotfiles
-git clone https://github.com/itaine/dotfiles.git ~/.dotfiles
+git clone https://github.com/itaine/dotfiles.git .dotfiles
 echo -e "\nCloned dotfiles successfully!\n"
 #------------------------------------------------------------------------------
 
@@ -26,15 +26,20 @@ echo -e "\nCloned dotfiles successfully!\n"
 #}}}
 # LINK DOTFILES {{{
 cd ~
-ln -sf ~/.dotfiles/vimrc.local ~/.vimrc.local
+rm .vimrc.local
+ln -sf .dotfiles/vimrc.local .vimrc.local
 
-ln -sf ~/.dotfiles/jshintrc.local ~/.jshintrc.local
+rm .jshintrc.local
+ln -sf .dotfiles/jshintrc.local .jshintrc.local
 
-ln -sf ~/.dotfiles/zshrc.local ~/.zshrc.local
+rm .zshrc.local
+ln -sf .dotfiles/zshrc.local .zshrc.local
 
-ln -sf ~/.dotfiles/gitconfig ~/.gitconfig
+rm .gitconfig
+ln -sf .dotfiles/gitconfig .gitconfig
 
-ln -sf ~/.dotfiles/tmux.conf ~/.tmux.conf
+rm .tmux.conf
+ln -sf .dotfiles/tmux.conf .tmux.conf
 
 
 echo -e "\nLinked configuration files successfully!\n"
