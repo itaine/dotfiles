@@ -17,7 +17,7 @@
 # CLONE DOTFILES {{{
 clear
 cd ~
-if [[ -d "~/.dotfiles" ]]; then
+if [ -d ~/.dotfiles ]; then
 	rm -rf .dotfiles
 fi
 
