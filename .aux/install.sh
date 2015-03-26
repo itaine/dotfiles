@@ -17,7 +17,7 @@
 # CLONE DOTFILES {{{
 clear
 cd ~
-rm -r .dotfiles
+rm -rf .dotfiles
 git clone https://github.com/itaine/dotfiles.git .dotfiles
 echo -e "\nCloned dotfiles successfully!\n"
 #------------------------------------------------------------------------------
