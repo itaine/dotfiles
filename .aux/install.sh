@@ -51,5 +51,4 @@ echo -e "\nLinked configuration files successfully!\n"
 #------------------------------------------------------------------------------
 rm ~/install.sh
 echo -e "\nCleaned up successfully!\n"
-zsh
 # }}}
