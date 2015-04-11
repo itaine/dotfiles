@@ -4,7 +4,6 @@
 [core]
   editor = vim
   excludesfile = ~/.gitignore
-	askpass = git-gui--askpass
 
 [pager]
   diff = false
