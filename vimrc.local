@@ -13,7 +13,8 @@
 " sourced post save, so most of the time your changes should take effect
 " immediately. However, some changes will only take effect after restarting Vim.
 
-silent! colorscheme molokaiez
+colorscheme molokaiez
+set background=dark
 
 " BUNDLES: "{{{
 " *******************************************************************************
